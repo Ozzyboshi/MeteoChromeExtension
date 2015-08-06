@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ozzy live temperature",
+  "description": "This extension shows you the latest temperature read from the Ozzyboshi Weatherstation.",
+  "version": "1.0",
+  "permissions": [
+    "http://meteo.ozzyboshi.com:8082/WeatherStation/MeteoServices/Readings/lastReading"
+  ],
+
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

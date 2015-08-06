@@ -1,0 +1,23 @@
+body {
+    background-image: url("mzS5Fe6.jpg");
+    background-color: #cccccc;
+    background-size: 300px;
+}
+
+#gauge{
+  width:97px;
+  height:247px;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+}
+#text{
+  width:200px;
+  height:24px;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: center;
+  font-weight: bold;
+}
